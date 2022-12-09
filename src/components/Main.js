@@ -29,7 +29,7 @@ const Main = () => {
   <p className="title" style={{fontWeight:"bold" ,color:'black',paddingBottom:'10px',fontSize:'30px'}}  >{data.email}</p>
   <p className='LOG' style={{fontWeight:"bold" ,color:'green',paddingBottom:'10px',fontSize:'60px'}}>LOGGED IN SUCCESSFULLY!</p>
 
-  <p ><button onClick={()=>history('/Content')}>Click to Start Journey</button></p>
+  <p ><button className ="lol" onClick={()=>history('/Content')}>Click to Start Journey</button></p>
   </div>
 
         

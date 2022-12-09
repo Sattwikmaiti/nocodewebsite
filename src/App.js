@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Main from './components/Main.js'
 import Login from "./components/Login.js"
 import Content from "./components/Content.js"
-
+import Contest from "./components/Contest.js"
 import Introduction from "./components/Introduction.js"
 import BS from "./components/BS.js"
 
@@ -25,6 +25,7 @@ const App = () => {
           <Route path='/Content' element={<Content />}/>
           <Route path='/Introduction' element={<Introduction />}/>
           <Route path='/BS' element={<BS />}/>
+          <Route path='/Contest' element={<Contest/>}/>
         
            </Routes>
           

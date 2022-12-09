@@ -1,6 +1,5 @@
 import React from 'react'
-import Introduction from './Introduction.js'
-import Topics from './Topic.js'
+
 import {useNavigate} from 'react-router-dom'
 
 const Content = () => {
@@ -41,7 +40,7 @@ const Content = () => {
             <section class="icon fa fa-snapchat-ghost" onClick={()=>{ history('/Introduction')}} style={{color :'black',padding:'50px'}}><span class="title">CONNECTING DOTS WITH DATA STRUCTURES AND ALGORITHM</span></section>
           </div>
           <div class="page" id="p4">
-            <section class="icon fa fa-bomb" style={{color :'white',padding:'50px'}}>
+            <section class="icon fa fa-bomb"  onClick={()=>{ history('/Contest')}}  style={{color :'white',padding:'50px'}}>
               <span class="title"> CONTESTS</span>
               
             
