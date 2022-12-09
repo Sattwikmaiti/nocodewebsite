@@ -1,13 +1,549 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Global */
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Chats Page */
+
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
 }
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #002766;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  background-image: url("./NO.gif");
+  background-position: left; 
+
+
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.login-card {
+  position: relative;
+  top: calc(50vh - 144px);
+  left: calc(50vw - 210px);
+  
+  height: 159px;
+  width: 420px;
+  text-align: center;
+
+ 
+}
+
+.login-button {
+  cursor: pointer;
+ color:white;
+  padding: 1px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+h1{
+	
+ 
+	background: linear-gradient(to right, #30CFD0 45%, #330867 55%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+		
+  
+}
+.hello
+{
+  background: linear-gradient(to right,red   32%,orange 65%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.hello.hover
+{
+  backgorund:black
+}
+
+
+.google {
+  background: url('./lol.gif');
+  color: white;
+  font-weight: bolder;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
+
+
+
+.card {
+  
+  padding: 40px;
+  max-width: 300px;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: lightseagreen;
+  font-size: 18px;
+  font-weight: 600;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+button:hover {
+  font-weight: bolder;
+  background: url('./lol.gif');
+}
+.bg-image {
+  /* The image used */
+  background: url('./giphy.gif');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;backdrop-filter: blur(5px);
+
+  /* Add the blur effect */
+  
+
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-size: cover;
+  
+ 
+}
+
+
+
+
+/*  
+  Available Google fonts: 
+  Source Code/Sans/Serif Pro,
+  Roboto
+
+
+
+#body ,.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: lightblue ;
+}
+
+/* Material Mods
+========================*/
+
+
+html, body, .page {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+  -webkit-transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+  -moz-transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+  -o-transition: all .8s cubic-bezier(0.54, 0.35, 0.29, 0.99);  
+  color: #fff;
+  overflow: auto; 
+}
+
+* {
+  font-family: 'open sans', 'lato', 'helvetica', sans-serif;
+}
+
+.page {
+  position: absolute;
+}
+
+#p1 {
+  left: 0;
+}
+
+#p2, #p3, #p4, #p5 {
+  left: 200%;
+}
+
+#p1 { background: url('./dekh.gif');background-repeat: no-repeat; background-position: center;background-size: cover;}
+#p2 {  background: url('./pic2.gif');background-repeat: no-repeat; background-position: center;background-size: cover;}
+#p3 { background: url('./pic3.gif');background-repeat: no-repeat; background-position: center;background-size: contain; }
+#p4 {background: url('./pic6.jpg');background-repeat: no-repeat; background-position: center;background-size: contain; }
+#p5 { background: url('./pic8.gif');background-repeat: no-repeat; background-position: center;background-size: contain;max-height: fit-content;}
+
+#t2:target #p2,
+#t3:target #p3,
+#t4:target #p4,
+#t5:target #p5 {
+  transform: translateX(-190%);
+  -webkit-transform: translateX(-190%);
+  -moz-transform: translateX(-190%);
+  -o-transform: translateX(-190%);
+  transition-delay: .4s !important;
+}
+
+#t2:target #p1, 
+#t3:target #p1,
+#t4:target #p1,
+#t5:target #p1{
+  background: black;
+}
+
+#t2:target #p1 .icon, 
+#t3:target #p1 .icon,
+#t4:target #p1 .icon,
+#t5:target #p1 .icon {
+  -webkit-filter: blur(3px);
+}
+
+.icon {
+  color: #fff;
+  font-size: 32px;
+  display: block;
+}
+
+ul .icon:hover {
+  opacity: 0.5;
+}
+
+.page .icon .title {
+  line-height: 1;
+}
+
+#t2:target ul .icon,
+#t3:target ul .icon,
+#t4:target ul .icon,
+#t5:target ul .icon{
+  transform: scale(.6);
+  -webkit-transform: scale(.6);
+  -moz-transform: scale(.6);
+  -o-transform: scale(.6);
+  transition-delay: .25s;
+}
+
+#t2:target #dos,
+#t3:target #tres,
+#t4:target #cuatro,
+#t4:target #cinco {
+  transform: scale(1.2) !important;
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important;
+}
+
+ul {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 280px;
+  width: 10%;
+  padding: 0;
+  text-align: center;
+ }
+
+#menu .icon {
+  margin: 30px 0;
+  transition: all .5s ease-out !important;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title, .hint {
+  display: block;
+}
+
+.title {
+  font-size: 38px;
+}
+
+.hint {
+  font-size: 13px;
+}
+
+#p4 .hint {
+  display: inherit !important;
+}
+
+.hint a {
+  color: yellow;
+  transition: all 250ms ease-out;
+  -webkit-transition: all 250ms ease-out;
+  -moz-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
+}
+
+.hint a:hover {
+  color: #FFF;
+}
+
+.line-trough {
+  text-decoration: line-through;
+}
+
+.page .icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10%;
+  left: 0;
+  width: 270px;
+  height: 170px;
+  margin: auto;
+  text-align: center;
+  font-size: 80px;
+  line-height: 1.3;
+  transform: translateX(360%);
+  -webkit-transform: translateX(360%);
+  -moz-transform: translateX(360%);
+  -o-transform: translateX(360%);
+  transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
+  -webkit-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
+  -moz-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
+  -o-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
+}
+
+.page#p1 .icon {
+  height: 220px;
+}
+
+.page#p1 .icon {
+  transform: translateX(10%) !important;
+}
+
+#t2:target .page#p2 .icon,
+#t3:target .page#p3 .icon,
+#t4:target .page#p4 .icon,
+#t5:target .page#p5 .icon {
+  transform: translateX(0) !important;
+  -webkit-transform: translateX(0) !important;
+  -moz-transform: translateX(0) !important;
+  -o-transform: translateX(0) !important;
+  transition-delay: 1s;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  }
+
+
+
+ div.navbar{
+   
+    position: fixed;
+    list-style: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+     display:flex-box;
+     flex-direction: row;
+    padding: 10px;
+    
+    
+    z-index: 9999;
+   
+  }
+  .all .list {
+  display: inline-block;
+  position: relative;
+  }
+  ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  }
+  ul li ul.dropdown li {
+  display: block;
+  }
+  ul li ul.dropdown {
+  width: 100%;
+  background: rgb(125, 107, 122);
+
+  position: absolute;
+  z-index: 999;
+  display: none;
+  height: max-content;
+width: max-content;
+  }
+
+  ul li a:hover {
+  background: rgba(30, 165, 183, 1);
+  }
+  ul li:hover ul.dropdown {
+  display: block;
+  }
+.information
+{
+   font-weight: bolder;
+}
+
+  body {
+   
+      background-image: linear-gradient( to right, #ffffb3,#ffe6e6);
+      background-attachment: fixed;	
+      background-size: cover;
+     
+      }
+
+      .btn {		
+         position: relative;	
+         padding: 20px 20px 20px 110px;
+         
+         font-size: 1.4rem;
+         color: rgba(0, 255, 187, 0.635);
+         letter-spacing: 1.1rem;
+         text-transform: uppercase;
+         font-weight:bolder;
+         cursor: pointer;
+         width: max-content;
+         
+        
+         border-radius: 2px;
+         background-color: aliceblue;
+        
+      }
+      
+.btn:hover {
+	color: darkcyan;
+   font-weight:bolder;
+   animation-name:khelo;
+   animation-duration:1s;
+   animation-iteration-count: infinite;
+   box-shadow: 2px 15px 30px 1px grey;
+  
+   animation-timing-function: ease-in;
+	
+}
+@keyframes khelo{
+   0%   {border-top:4px  solid black}
+   25%  {border-right:4px solid blue }
+   50%  {border-bottom:4px solid violet }
+   100% {border-left:4px solid red }
+ }
+
+
+  .container{
+	box-shadow: 1px 15px 30px 1px grey;
+	background: rgba(74, 63, 194, 0.217);
+	text-align: left;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em auto;
+	height: 450px;
+	width: fit-content;
+  
+	
+}
+.container:hover{
+   box-shadow: 2px 35px 30px 4px grey;
+}
+
+
+.product-details {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 40%;
+  
+
+}
+.container .product-details {
+	font-family: 'Bebas Neue';
+	display: inline-block;
+	position: relative;
+	font-size: 10px;
+	color: rgba(255, 213, 0, 0.37);
+	margin: 0;
+	
+}
+.container .product-details > p {
+   font-family: 'EB Garamond', serif;
+      text-align: left;
+      font-size: 15px;
+      color: black;
+      padding-left :  80px
+    ;
+    padding-bottom: 20px;
+   }
+
+  
