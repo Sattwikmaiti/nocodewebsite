@@ -13,7 +13,7 @@ import p1 from '../cf.png'
 import p2 from '../cc.png'
 import p3 from '../leet.png'
 import p4 from '../at.png'
-import p5 from '../hck.png'
+import p5 from '../at.png'
 const buttonSX = {
   backgroundColor:'lightgreen',
   "&:hover": {

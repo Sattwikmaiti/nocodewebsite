@@ -95,6 +95,10 @@ h1.hh{
  -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+.container
+{
+  padding:50px
+}
 .hello
 {
   background: linear-gradient(to right,red   32%,orange 65%);
@@ -471,7 +475,7 @@ width: max-content;
 
       .btn {		
          position: relative;	
-         padding: 20px 20px 20px 110px;
+         padding: 20px 20px 20px 20px;
          
          font-size: 1.4rem;
          color: rgba(0, 255, 187, 0.635);
@@ -527,7 +531,7 @@ width: max-content;
 	position: relative;
 	text-align: left;
 	overflow: hidden;
-	padding: 30px;
+	padding: 60px;
 	height: 100%;
 	float: left;
 	width: 40%;
