@@ -1,6 +1,6 @@
 import React from 'react'
 import { GoogleOutlined,
-    FacebookOutlined 
+    
 } from '@ant-design/icons'
 //mport { getDefaultNormalizer } from '@testing-library/react'
 import {auth} from '../firebase.js'
