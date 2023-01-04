@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	margin: 0px;
+    background-image: url('./pp.gif');
+}
+
+#circle-container {
+	
+    display: flex;
+    
+    justify-content: center;
+	width: 100vw;
+	height: 56vh;
+	position: relative;
+}
+
+.circle {
+	width: 50vh;
+	height: 50vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+
+
+#one {
+	background-color: rgba(0,0,225, 0.45);
+	font-size: 40px;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: .5.5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	transition: .5s;
+}
+
+#two {
+	background-color: green;
+	transition: .5s;
+	opacity: 0.5;
+}
+
+#three {
+	background-color: red;
+	transition: .5s;
+	opacity: 0.5;
+}
+
+#four {
+	background-color: orange;
+	transition: .5s;
+	opacity: 0.5;
+}
+#five {
+	background-color: green;
+	transition: .5s;
+	opacity: 0.5;
+}
+
+#cc {
+	position:relative;
+	width: 50vh;
+	height: 50vh;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+#cc:hover #two {
+	transform: translate(0px, 75px);
+}
+#cc:hover #three {
+	transform: translate(0px, -75px);
+}
+#cc:hover #four {
+	transform: translate(75px, 0px);
+}
+#cc:hover #five {
+	transform: translate(-75px, 0px);
+}
+
+#mb {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 0.5px;
+	bottom: 0px;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	background-color: #3B3A6D;
+	color: white;
+}
+
+#mb a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px;
+}
+
+#mb p {
+	padding: 5px;
+	margin: 0px;
+}

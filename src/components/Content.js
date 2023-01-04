@@ -34,7 +34,7 @@ const Content = () => {
              </span></section>  
           </div>
           <div class="page" id="p2">
-            <section class="icon fa fa-keyboard-o"><span class="title">DEEP DIVE IN THE OCEAN OF QUESTIONS </span></section>
+            <section class="icon fa fa-keyboard-o" onClick={()=>{ history('/Resource')}} ><span class="title">DEEP DIVE IN THE OCEAN OF QUESTIONS </span></section>
           </div>  
           <div class="page" id="p3">
             <section class="icon fa fa-snapchat-ghost" onClick={()=>{ history('/Introduction')}} style={{color :'black',padding:'50px'}}><span class="title">CONNECTING DOTS WITH DATA STRUCTURES AND ALGORITHM</span></section>
