@@ -1,4 +1,5 @@
 import React from 'react'
+import emailjs from '@emailjs/browser';
 import { GoogleOutlined,
     
 } from '@ant-design/icons'
@@ -12,8 +13,7 @@ import { useNavigate } from "react-router-dom"
     const Login =() =>
 {  
 
-    
-
+     
 
     const history = useNavigate()
  return (
@@ -29,13 +29,25 @@ import { useNavigate } from "react-router-dom"
         auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).then(
             (user)=>{
                 localStorage.setItem("user",JSON.stringify(user))
-                //console.log(user) 
+                console.log(user.user.email)
                
                // const data= JSON.stringify(user);
                // uploaddetails(data);
                 //console.log(typeof data)
 
+                 {/*  emailjs.send('service_mw422g6','template_tyow97q', {
+                    to_name: "user",
+                    from_name: "NoCode team",
+                    message: "Welcome To NoCode Website !!!  ",
+                    reply_to: user.user.email,
+                    }, 'UHku05c1fsztWeJut')
+                  .then((response) => {
+                     alert('SUCCESS CHECK YOUR EMAIL INBOX !!!', response.status, response.text);
+                  }, (err) => {
+                     console.log('FAILED...', err);
+                  });
                 
+                */}
              
              history('/main'); 
 

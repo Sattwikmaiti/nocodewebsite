@@ -10,7 +10,7 @@ const BS = () => {
        
          
          <h1 style={{display:'flex',justifyContent:'center'}}>Questions </h1><br />
-         <p style={{colour:'yellow'}}>
+         <p >
          1)<span>Aggresive Cows ::   <a target="_blank"href="https://www.spoj.com/problems/AGGRCOW/" >Question  ----</a> <a target="_blank" href="https://github.com/Sattwikmaiti/ALGORITHMS-GIT-HUB-/blob/main/Searching%20Algorithms/binary_search.cpp">Solution</a></span><br />
          2)<a href="https://codeforces.com/edu/course/2/lesson/6/1/practice" target="_blank">LINK1</a><br />
          3)<a href="https://www.spoj.com/problems/EKO/" target="_blank">LINK2</a><br />
