@@ -22,8 +22,8 @@
   .a{
     display: block;
     width: 620px;
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
@@ -38,7 +38,7 @@
   
   .iconii{
     width: 50px;
-    height: 50px;
+    height: 60px;
     border: 3px solid transparent;
     position: absolute;
     transform: rotate(45deg);
@@ -58,7 +58,7 @@
     transition: all .35s;
   }
   
-  .a:hover{
+  .a:hover {
     width: 570px;
     border: 3px solid #2ecc71;
     background: transparent;
@@ -66,6 +66,11 @@
     
   }
   
+  .blue{ color:#4285F4; }
+.red{ color:#DB4437; }
+.yellow{ color:#F4B400; }
+.green{ color:#0F9D58; }
+.red { display:inline-block;transform:rotate(-20deg); }
   .a:hover + .icon{
     border: 3px solid #2ecc71;
     right: -25%;
