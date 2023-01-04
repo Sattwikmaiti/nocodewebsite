@@ -21,7 +21,7 @@ import { useNavigate } from "react-router-dom"
 
   <div className="containe">
     <div className="wrapper">
-      <div className='containert' style={{padding:'20px', fontSize:'30px'}}> Welcome To NoCode Website . Learn Code and Know More about DSA and Competetive Coding.</div>
+      <div className='containert' style={{padding:'20px', fontSize:'30px',fontFamily:'Audiowide, sans-serif'}}> Welcome To NoCode Website . Learn Code and Know More about DSA and Competetive Coding.</div>
   <div className="link_wrapper">
     <div className="a" 
      onClick={()=>{
