@@ -467,7 +467,7 @@ width: max-content;
 
   body {
    
-      
+      background-image: url('./components/loginn.gif');
       background-attachment: fixed;	
       background-size: cover;
      

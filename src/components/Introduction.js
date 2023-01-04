@@ -7,6 +7,8 @@ const Introduction = () => {
   const navigate=useNavigate();
   return (
     <>
+    <div className="navv" style={{backgroundColor:'grey',height:'80px',fontSize:'30px'}}><h2>
+      QUESTIONOPEDIA : THE BIBLE OF QUESTIONS </h2></div>
    <div>
    <div className="navbar">
        <ul className="all">
