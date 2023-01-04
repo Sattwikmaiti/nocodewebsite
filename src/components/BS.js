@@ -26,7 +26,7 @@ const BS = () => {
                */}
 
     </div>
-
+ <div style={{padding :'50px'}}>
     <table class="table table-hover ">
   <thead>
     <tr style={{backgroundColor:'HighlightText',fontSize:'40px'}}>
@@ -283,6 +283,7 @@ const BS = () => {
     </tr>
   </tbody>
 </table>
+</div>
     </div>
   )
 }
