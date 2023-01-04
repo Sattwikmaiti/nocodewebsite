@@ -12,7 +12,7 @@ const Introduction = () => {
             <a className="link" href="#">Home</a>
           </li>
           <li className="list">
-            <a className="link" >Silver  ▾</a>
+            <a className="link" >Silver  </a>
             <ul className="dropdown">
               <li className="list">
                 <a className="link" href="#BinarySearch">Binary Search</a>
@@ -34,7 +34,7 @@ const Introduction = () => {
           </li>
           <li className="list">
           
-            <a className="link" >Gold ▾</a>
+            <a className="link" >Gold </a>
             <ul className="dropdown">
              
               <li className="list">
@@ -53,7 +53,7 @@ const Introduction = () => {
           </li>
           <li className="list">
           
-            <a className="link" >Diamond ▾</a>
+            <a className="link" >Diamond </a>
             <ul className="dropdown">
              
               <li className="list">
@@ -72,7 +72,7 @@ const Introduction = () => {
           </li>
           <li className="list">
           
-            <a className="link" >Platinum ▾</a>
+            <a className="link" >Platinum </a>
             <ul className="dropdown">
              
               <li className="list">
