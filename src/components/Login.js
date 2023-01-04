@@ -6,6 +6,7 @@ import { GoogleOutlined,
 import {auth} from '../firebase.js'
 import "firebase/app"
 import firebase from 'firebase'
+import "./Login.css"
 import { useNavigate } from "react-router-dom"
 //const  uploaddetails = (user)=>  {return user};
     const Login =() =>
@@ -16,38 +17,53 @@ import { useNavigate } from "react-router-dom"
 
     const history = useNavigate()
  return (
-<div id="login-page">
-    <div className="login-card">
+<>
+
+  <div className="containe">
+    <div className="wrapper">
+  <div className="link_wrapper">
+    <div className="a" 
+     onClick={()=>{
+             
+        auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).then(
+            (user)=>{
+                localStorage.setItem("user",JSON.stringify(user))
+                //console.log(user) 
+               
+               // const data= JSON.stringify(user);
+               // uploaddetails(data);
+                //console.log(typeof data)
+
+                
+             
+             history('/main'); 
+
+            }
+        ).catch((e)=>console.log())
+        }}
     
     
-   <br></br>
-    <br></br>
-        <h1 style={{padding:'50px 50px 50px 50px',fontSize:'70px'}}>Welcome To NoCoDe!!</h1>
-         <button className="login-button google"
-         onClick={()=>{
-             alert("clicked on login with google")
-            auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).then(
-                (user)=>{
-                    localStorage.setItem("user",JSON.stringify(user))
-                    //console.log(user) 
-                   
-                   // const data= JSON.stringify(user);
-                   // uploaddetails(data);
-                    //console.log(typeof data)
-                 
-                 history('/main'); 
-
-                }
-            ).catch((e)=>console.log())
-            }}
-         >
-            <GoogleOutlined  style={{marginRight:'10px'}}/><div className="hello">Sign in with Google</div>
-         </button>
-  <br></br>
-  <br></br>
-
+    
+    
+    
+    
+    
+    
+    > <GoogleOutlined  style={{marginRight:'10px'}}/><div className="hello">Sign in with Google</div></div>
+    <div className="iconii">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+        <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+      </svg>
     </div>
+  </div>
+  
 </div>
+
+</div>
+
+
+</>
+
  )
 };
 
