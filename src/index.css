@@ -583,3 +583,14 @@ width: max-content;
      padding :30px
  }
   
+
+ .link{
+color:white
+ 
+     
+ }
+ 
+ #homee:hover {
+  color:#30CFD0;
+  cursor:pointer 
+ }

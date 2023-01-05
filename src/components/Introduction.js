@@ -16,7 +16,7 @@ const Introduction = () => {
    <div className="navbar">
        <ul className="all">
           <li className="list">
-            <div className="link" style={{fontSize:'30px',fontFamily:'cursive'}} onClick ={()=>navigate('/Content')}>Home</div>
+            <div className="link" id="homee" style={{fontSize:'30px',fontFamily:'cursive'}} onClick ={()=>navigate('/Content')}>Home</div>
           </li>
           <li className="list">
             <a className="link" >Silver  </a>
