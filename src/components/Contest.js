@@ -1,4 +1,8 @@
-import React from 'react'
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import ButtonBase from '@mui/material/ButtonBase';
+import Typography from '@mui/material/Typography';
 
 
 
@@ -6,7 +10,7 @@ import React from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
+
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import {Link} from 'react-router-dom'
 import p1 from '../cf.png'
@@ -24,171 +28,155 @@ const buttonSX = {
 };
 
 
+const images = [
+  {
+    url: p4,
+    title: 'ATCODER',
+    width: '53%',
+    code_url:'https://atcoder.jp/contests/'
+  },
+  {
+    url: p1,
+    title: 'CODEFORCE',
+    width: '47%',
+    code_url:'https://codeforces.com/contests/'
+  },
+  {
+    url: p5,
+    title: 'GOOGLE',
+    width: '33%',
+    code_url:'https://codeforces.com/contests/'
+  },
+  {
+    url: p2,
+    title: 'CODECHEF',
+    width: '40%',
+    code_url:'https://codechef.com/contests/'
+  },
+  {
+    url: p3,
+    title: 'LEETCODE',
+    width: '27%',
+    code_url:'https://leetcode.com/contests/'
+  },
+];
+
+const ImageButton = styled(ButtonBase)(({ theme }) => ({
+  position: 'relative',
+  height: 300,
+  [theme.breakpoints.down('sm')]: {
+    width: '100% !important', // Overrides inline-style
+    height: 100,
+  },
+  '&:hover, &.Mui-focusVisible': {
+    zIndex: 1,
+    '& .MuiImageBackdrop-root': {
+      opacity: 0.15,
+    },
+    '& .MuiImageMarked-root': {
+      opacity: 0,
+    },
+    '& .MuiTypography-root': {
+      border: '4px solid currentColor',
+    },
+  },
+}));
+
+const ImageSrc = styled('span')({
+  position: 'absolute',
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center 40%',
+});
+
+const Image = styled('span')(({ theme }) => ({
+  position: 'absolute',
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  color: theme.palette.common.white,
+  fontSize:'100px'
+}));
+
+const ImageBackdrop = styled('span')(({ theme }) => ({
+  position: 'absolute',
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0,
+  backgroundColor: theme.palette.common.black,
+  fontSize:'100px',
+  opacity: 0.4,
+  transition: theme.transitions.create('opacity'),
+}));
+
+const ImageMarked = styled('span')(({ theme }) => ({
+  height: 3,
+  width: 18,
+  backgroundColor: theme.palette.common.white,
+  position: 'absolute',
+  fontSize:'100px',
+  bottom: -2,
+  left: 'calc(50% - 9px)',
+  transition: theme.transitions.create('opacity'),
+}));
+
 const Topic = () => {
   return (
+    <>
     <div > 
-   <div className="mom">
-   <div className="child">
-     <Card sx={{ maxWidth: 800 }} >
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="200"
-          image={p1}
-          alt="green iguana"
-        />
-        <CardContent>
-        <h1 gutterBottom variant="h3" component="" sx={{color:'green'}}>
-          &#9733;	&#9733; STATUS	&#9733;	&#9733;
-          </h1>
-          <h3>Codeforce</h3>
-          <Typography variant="" color="text.secondary">
-           Upcoming contest : December 11/2022 on 21:05(UTC + 5.5)
+      
+<Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 600, width: '100%' }}>
+      {images.map((image) => (
+        <ImageButton
+          focusRipple
+          key={image.title}
+          style={{
+            width: image.width,
+          }}
 
-           <a  href="https://codeforces.com/contests/1771" target="blank"><h1>LINK</h1> </a>
 
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button sx={buttonSX} size="small" color="primary" >
-        <a  href="https://codeforces.com/contests" target="blank"><h1>click on me </h1> </a>
-        </Button>
-      </CardActions>
-    </Card>
-    </div>
-    <div className="child">
-     <Card sx={{ maxWidth: 800 }} >
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="200"
-          image={p2}
-          alt="green iguana"
-        />
-        <CardContent>
-        <h1 gutterBottom variant="h3" component="" sx={{color:'green'}}>
-          &#9733;	&#9733; STATUS	&#9733;	&#9733;
-          </h1>
-          <h3>Codechef</h3>
-          <Typography variant="" color="text.secondary">
-          Upcoming contest : December 10/2022 on 20:00 IST (long) 
 
-           <a  href="https://www.codechef.com/DEC221" target="blank"><h1>LINK</h1> </a>
+        >
+          <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
+          <ImageBackdrop className="MuiImageBackdrop-root" />
+          <Image>
+            <Typography
+              component="span"
+              variant="subtitle1"
+              color="inherit"
+              sx={{
+                position: 'relative',
+                p: 4,
+                pt: 2,
+                pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                fontSize:'30px'
+              }}
 
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button sx={buttonSX} size="small" color="primary" >
-        <a  href="https://www.codechef.com/contests?itm_medium=navmenu&itm_campaign=allcontests/" target="blank"><h1>click on me </h1> </a>
-        </Button>
-      </CardActions>
-    </Card>
-    </div>
-    <div className="child">
-     <Card sx={{ maxWidth: 800 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="200"
-          image={p3
-          }
-          alt="green iguana"
-        />
-        <CardContent>
-          <h1 gutterBottom variant="h3" component="" sx={{color:'green'}}>
-          &#9733;	&#9733; STATUS	&#9733;	&#9733;
-          </h1>
-          <h3>LeetCode</h3>
-          <Typography variant="" color="text.secondary">
-           Upcoming contest : December 10/2022 on 8:00pm(GMT+5:30)
+              onClick={()=>{window.open(`${image.code_url}`, "_blank")}}
+            >
+      
+              {image.title}
+              <ImageMarked className="MuiImageMarked-root" />
+            </Typography>
+          </Image>
+        </ImageButton>
+      ))}
+    </Box>
 
-           <a  href="https://leetcode.com/contest/biweekly-contest-93/" target="blank"><h1>LINK</h1> </a>
 
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button sx={buttonSX} size="small" color="primary" >
-        <a  href="https://leetcode.com/contest/" target="blank"><h1>click on me </h1> </a>
-        </Button>
-      </CardActions>
-    </Card>
-    </div>
-    
-    </div>
-    <div className="mom">
-   <div className="child">
-     <Card sx={{ maxWidth: 800 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="200"
-          image={p4}
-          alt="green iguana"
-        />
-        <CardContent>
-          <h1 gutterBottom variant="h3" component="" sx={{color:'green'}}>
-          &#9733;	&#9733; STATUS	&#9733;	&#9733;
-          </h1>
-          <h3>Atcoder</h3>
-          <Typography variant="" color="text.secondary">
-           Upcoming contest : December 10/2022 on 17:30(local time)
 
-           <a  href="https://atcoder.jp/contests/abc281" target="blank"><h1>LINK</h1> </a>
-
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button sx={buttonSX} size="small" color="primary" >
-        <a  href="https://atcoder.jp/contests/" target="blank"><h1>click on me </h1> </a>
-        </Button>
-      </CardActions>
-    </Card>
-
-    </div>
-    <div className="child">
-     <Card sx={{ maxWidth: 800 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="200"
-          image={p5}
-          alt="green iguana"
-        />
-        <CardContent>
-          <h1 gutterBottom variant="h3" component="" sx={{color:'green'}}>
-          &#9733;	&#9733; STATUS	&#9733;	&#9733;
-          </h1>
-          <h3>Top Coding Contests</h3>
-          <Typography variant="" color="text.secondary">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim perferendis ut praesentium fugiat debitis. Sit perspiciatis, culpa earum quo sapiente aliquam vero fugit unde eligendi saepe, facilis dolor minima voluptas?
-
-           <a  href="https://atcoder.jp/contests/abc281" target="blank"><h1>LINK</h1> </a>
-
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button sx={buttonSX} size="small" color="primary" >
-        <a  href="https://atcoder.jp/contests/" target="blank"><h1>click on me </h1> </a>
-        </Button>
-      </CardActions>
-    </Card>
 
     </div>
     
-    
-   
-    
-    </div>
-    
-    
-    </div>
-    
-
+    </>
 
    
   )

@@ -29,7 +29,7 @@ const BS = () => {
  <div style={{padding :'50px'}}>
     <table class="table table-hover ">
   <thead>
-    <tr style={{backgroundColor:'HighlightText',fontSize:'40px'}}>
+    <tr style={{backgroundColor:'HighlightText',fontSize:'40px',color:'black'}}>
       <th scope="col">#</th>
       <th scope="col">QUESTION NAME</th>
       <th scope="col">QUESTION LINK</th>
