@@ -5,7 +5,7 @@ import './design.css'
 const Resources = () => {
   return (
     <>
-    
+    <div className="columns">
     <div id="circle-container">
 	<div id="cc">
 	<div class="circle" id="five"></div>
@@ -34,6 +34,8 @@ const Resources = () => {
 	<div class="circle" id="one"><a target="_blank" href="https://codeforces.com/edu/courses">CSES</a></div>
 	</div>
 </div>
+</div>
+<div className="columns">
 <div id="circle-container">
 	<div id="cc">
 	<div class="circle" id="five"></div>
@@ -63,7 +65,7 @@ const Resources = () => {
 </div>
 
 
-
+</div>
 
 
 </>

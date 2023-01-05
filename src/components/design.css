@@ -30,4 +30,8 @@
     padding-right: 40px;
   }
   tr:hover {background-color: #D6EEEE;}
- 
+ .columns{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+ }
