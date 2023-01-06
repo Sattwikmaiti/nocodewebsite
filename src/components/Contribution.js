@@ -69,7 +69,7 @@ const Contribution = () => {
         onChange={(event) =>
           setname(event.target.value)
         }
-        required
+      
       />
 </div>
      
@@ -83,7 +83,7 @@ const Contribution = () => {
         onChange={(event) => {
           setemailid(event.target.value);
         }}
-        required
+         
       />
       </div>
      <div className="txt">
@@ -101,7 +101,7 @@ const Contribution = () => {
         onChange={(event) => {
           setmessage(event.target.value);
         }}
-        required
+        
       />
 </div>
       

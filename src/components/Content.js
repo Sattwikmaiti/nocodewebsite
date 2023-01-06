@@ -52,6 +52,7 @@ const Content = () => {
               <section class="icon fa fa-gamepad"  
               onClick={()=>{ history('/contribution')}}style={{color :'black',padding:'50px'}}></section></span>
               <p class="hint">
+                 REVIEW US !!
                 <span></span><br/>
                
               </p>
