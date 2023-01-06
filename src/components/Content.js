@@ -49,7 +49,8 @@ const Content = () => {
           <div class="page" id="p5">
             <section class="icon">
               <span class="title">
-              <section class="icon fa fa-gamepad" style={{color :'black',padding:'50px'}}></section></span>
+              <section class="icon fa fa-gamepad"  
+              onClick={()=>{ history('/contribution')}}style={{color :'black',padding:'50px'}}></section></span>
               <p class="hint">
                 <span></span><br/>
                

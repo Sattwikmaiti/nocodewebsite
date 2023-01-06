@@ -75,3 +75,75 @@
     border: 3px solid #2ecc71;
     right: -25%;
   }
+
+
+  .container{
+
+
+    height:max-content;
+    width: max-content;
+    
+  }
+  .body
+  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  background-color:  rgba(255, 0, 0, 0.3);
+   
+  }
+  .forms
+  {
+
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pay
+  {
+    background-color: beige;
+    opacity: 0.5;
+    padding: 10px;
+    color:black
+  }
+  .txt
+  {
+    padding :10px;
+   
+  }
+
+  input[type=text] {
+    padding:10px;
+    border:3px solid blueviolet;
+     width: 200px;
+     background-color: lightcyan;
+     color: black;
+  }  input[type=email] {
+    padding:10px;
+    border:3px solid blueviolet;
+    width: 200px;
+    background-color: lightcyan;
+    color: black;
+  
+  } 
+  
+  textarea {
+    resize: none;
+    opacity: 1;
+    color: black;
+  }
+
+
+  #message{
+
+    background-image: url(../ace.png);
+    background-repeat: no-repeat;
+    background-size:  contain;
+    background-position: right;
+    background-color: lightcyan ;
+    opacity: .2;
+    
+     
+  }

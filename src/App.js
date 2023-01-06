@@ -10,6 +10,7 @@ import Content from "./components/Content.js"
 import Contest from "./components/Contest.js"
 import Resource from "./components/Resources.js"
 import Introduction from "./components/Introduction.js"
+import Contribution from "./components/Contribution.js"
 import BS from "./components/BS.js"
 import Rec from "./components/Rec.js"
 
@@ -30,7 +31,7 @@ const App = () => {
           <Route path='/BS' element={<BS />}/>
           <Route path='/Rec' element={<Rec/>}/>
           <Route path='/Contest' element={<Contest/>}/>
-        
+          <Route path='/contribution' element={<Contribution/>}/>
            </Routes>
           
         
