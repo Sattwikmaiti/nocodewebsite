@@ -80,16 +80,7 @@
 .child:hover{
   box-shadow:10px #3979e0;
 }
-h1{
-	
- 
-	background: linear-gradient(to right, #30CFD0 45%, #330867 55%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 
-		
-  
-}
 h1.hh{
  background: radial-gradient(circle,black, yellow, blue);
  -webkit-background-clip: text;

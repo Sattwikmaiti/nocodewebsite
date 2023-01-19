@@ -25,6 +25,7 @@ const Contribution = () => {
     setname('');
 
       alert("THANKS FOR THE REVIEW ")
+      nav('/thank')
         
  /* emailjs.send( 'service_mw422g6', 'template_thnxeur', {
          
