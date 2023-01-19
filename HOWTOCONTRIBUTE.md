@@ -5,8 +5,8 @@ STEPS ::
 Go to  SRC  --> COMPONENTS  (folder)
 Then go to ALL(folder) 
 You will Find many files named after the Topic names :
-<tr>
-Arrays.js
+
+Arrays.js \n
 Backtracking.js
 Bitmanupulation.js
 BS.js
@@ -19,7 +19,7 @@ Recursion.js
 SortingSearching.js
 StackQueue.js
 Trees.js
-</tr>
+
 Open the file in which you want to contribute the QUESTION LINK and SOLUTION LINK.
 
  
