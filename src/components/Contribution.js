@@ -1,5 +1,6 @@
 import React from 'react'
 import p1 from './123.jpeg' 
+import p2 from './t2.gif'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import './Login.css'
@@ -25,7 +26,7 @@ const Contribution = () => {
     setname('');
 
       alert("THANKS FOR THE REVIEW ")
-      nav('/thank')
+    
         
  /* emailjs.send( 'service_mw422g6', 'template_thnxeur', {
          
@@ -51,6 +52,11 @@ const Contribution = () => {
      
    
   return (
+    
+
+
+    <>
+
     
     <div className="container" id="gg">
       <div className="pay">
@@ -118,8 +124,94 @@ const Contribution = () => {
     </form>
     </div>
     </div>
-
+    <h1 style={{display:'flex',justifyContent:'center',fontSize:'30px',padding:'10px',fontFamily:'c',color:'black'}}>SPECIAL THANKS TO CONTRIBUTORS </h1>
     </div>
+    
+    <div class="container">
+       
+         <div className="elements">
+         <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>   <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>   <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>   <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>
+          <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>
+
+  <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>
+  
+
+
+</div>
+
+<div className="elements">
+         <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>   <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>   <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>   <div className="d">
+	<div class="avatar">
+		<a href="https://codepen.io/MarioDesigns/" target="_blank">
+			<img src={p2}alt="Skytsunami" />
+		</a>
+	</div>
+  </div>
+        
+
+ 
+  
+
+
+</div>
+</div>
+
+
+    </>
   )
       }
 
