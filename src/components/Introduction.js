@@ -112,7 +112,7 @@ const Introduction = () => {
            <div className="product-details">
             <p className="information" >
               <h1> SortingSearching</h1>
-              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+              The processes of looking up a particular data record in the database is called searching. The process of ordering the records in a database is called Sorting. Sorting and searching together constitute a major area of study in computational methods
          
 
             </p>
@@ -129,7 +129,7 @@ const Introduction = () => {
            <div className="product-details">
             <p className="information" >
               <h1> Recursion</h1>
-              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+              In computer science, recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code
          
 
             </p>
@@ -146,7 +146,7 @@ const Introduction = () => {
            <div className="product-details">
             <p className="information" >
               <h1> BitManupulation</h1>
-              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+              Bit manipulation is the act of algorithmically manipulating bits or other pieces of data shorter than a word. Computer programming tasks that require bit manipulation include low-level device control, error detection and correction algorithms, data compression, encryption algorithms, and optimization
          
 
             </p>
@@ -163,7 +163,9 @@ const Introduction = () => {
            <div className="product-details">
             <p className="information" >
               <h1>Arrays</h1>
-              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+              An array is a collection of items of same data type stored at contiguous memory locations. 
+
+This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array). The base value is index 0 and the difference between the two indexes is the offset.
          
 
             </p>
@@ -180,7 +182,7 @@ const Introduction = () => {
            <div className="product-details">
             <p className="information" >
               <h1> DynamicProggraming</h1>
-              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+              Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.
          
 
             </p>
