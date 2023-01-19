@@ -24,13 +24,13 @@ const Introduction = () => {
             <ul className="dropdown">
              
               <li className="list">
-                <a className="link" href="#Sorting">Sorting Techniques</a>
+                <a className="link" href="#SortingSearching">Sorting Techniques</a>
               </li>
               <li className="list">
                 <a className="link" href="#Recursion">Recursion</a>
               </li>
               <li className="list">
-                <a className="link" href="#BitManupulation">Bit Manupulation</a>
+                <a className="link" href="#BitsManupulation">Bit Manupulation</a>
               </li>
               <li className="list">
                 <a className="link" href="#Arrays">Arrays</a>
@@ -50,7 +50,7 @@ const Introduction = () => {
                 <a className="link" href="#LinkedList">Linked List</a>
               </li>
               <li className="list">
-                <a className="link" href="#BinarySearch">Binary Search</a>
+                <a className="link" href="#BS">Binary Search</a>
               </li>
               <li className="list">
                 <a className="link" href="#Heaps">Heaps</a>
@@ -80,7 +80,7 @@ const Introduction = () => {
             <ul className="dropdown">
              
               <li className="list">
-                <a className="link" href="#DynamicProgramming">DynamicPrograming</a>
+                <a className="link" href="#DynamicProg">DynamicPrograming</a>
               </li>
               <li className="list">
                 <a className="link" href="#Graphs">Graphs</a>
@@ -108,16 +108,16 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="Sorting" className="peo" >
+      <div id="SortingSearching" className="peo" >
            <div className="product-details">
             <p className="information" >
-              <h1> Binary Search</h1>
+              <h1> SortingSearching</h1>
               Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
             </p>
             < div style={{paddingLeft :'70px'}}>
-            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
+            <div className="btn from-left" onClick={()=>navigate('/SortingSearching')} >QuestionBank</div></div>
            </div>
 
            <div className="product-image">
@@ -128,13 +128,13 @@ const Introduction = () => {
       <div id="Recursion" className="peo" >
            <div className="product-details">
             <p className="information" >
-              <h1> Binary Search</h1>
+              <h1> Recursion</h1>
               Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
             </p>
             < div style={{paddingLeft :'70px'}}>
-            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
+            <div className="btn from-left" onClick={()=>navigate('/Recursion')} >QuestionBank</div></div>
            </div>
 
            <div className="product-image">

@@ -43,7 +43,16 @@ const App = () => {
           <Route path='/BackTracking' element={<BackTracking />}/>
           <Route path='/Arrays' element={<Arrays />}/>
           <Route path='/BitsManupulation' element={<BitsManupulation />}/>
-          
+          <Route path='/BS' element={<BS />}/>
+          <Route path='/DynamicProg' element={<DynamicProg/>}/>
+          <Route path='/Graph' element={<Graph />}/>
+          <Route path='/Heaps' element={<Heaps/>}/>
+          <Route path='/LinkedList' element={<LinkedList/>}/>
+          <Route path='/NumberTheory' element={<NumberTheory />}/>
+          <Route path='/Recursion' element={<Recursion/>}/>
+          <Route path='/SortingSearching' element={<SortingSearching/>}/>
+          <Route path='/StackQueue' element={<StackQueue />}/>
+          <Route path='/Trees' element={<Trees />}/>
           <Route path='/Contest' element={<Contest/>}/>
           <Route path='/contribution' element={<Contribution/>}/>
           <Route path='/Thank' element={<Thank/>}/>
