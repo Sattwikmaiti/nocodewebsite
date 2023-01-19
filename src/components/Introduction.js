@@ -91,7 +91,7 @@ const Introduction = () => {
           </li>
         </ul>
       </div>
-      <div id="BinarySearch" className="peo" >
+      <div id="BS" className="peo" >
            <div className="product-details">
             <p className="information" >
               <h1> Binary Search</h1>
@@ -142,10 +142,10 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BitManupulation" className="peo" >
+      <div id="BitsManupulation" className="peo" >
            <div className="product-details">
             <p className="information" >
-              <h1> Binary Search</h1>
+              <h1> BitManupulation</h1>
               Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
@@ -159,10 +159,10 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="peo" >
+      <div id="Arrays" className="peo" >
            <div className="product-details">
             <p className="information" >
-              <h1> Binary Search</h1>
+              <h1>Arrays</h1>
               Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
@@ -176,10 +176,10 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="peo" >
+      <div id="DynamicProg" className="peo" >
            <div className="product-details">
             <p className="information" >
-              <h1> Binary Search</h1>
+              <h1> DynamicProggraming</h1>
               Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
@@ -193,14 +193,16 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="peo" >
+      <div id="Graphs" className="peo" >
            <div className="product-details">
             <p className="information" >
-            It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
+              <h1> Graph</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
             </p>
-            <div className="btn from-left" >Details</div>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
            </div>
 
            <div className="product-image">
@@ -208,14 +210,16 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="peo" >
+      <div id="Backtracking" className="peo" >
            <div className="product-details">
             <p className="information" >
-            It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
+              <h1> Backtracking</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
             </p>
-            <div className="btn from-left" >Details</div>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
            </div>
 
            <div className="product-image">
@@ -223,14 +227,16 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="peo" >
+      <div id="Heaps" className="peo" >
            <div className="product-details">
             <p className="information" >
-            It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
+              <h1> Heaps</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
             </p>
-            <div className="btn from-left" >Details</div>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
            </div>
 
            <div className="product-image">
@@ -238,14 +244,17 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="peo" >
+
+      <div id="LinkedList" className="peo" >
            <div className="product-details">
             <p className="information" >
-            It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
+              <h1> LinkedList</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
             </p>
-            <div className="btn from-left" >Details</div>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
            </div>
 
            <div className="product-image">
@@ -253,14 +262,17 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="peo" >
+
+      <div id="NumberTheory" className="peo" >
            <div className="product-details">
             <p className="information" >
-            It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
+              <h1> NumberTheory</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
          
 
             </p>
-            <div className="btn from-left" >Details</div>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
            </div>
 
            <div className="product-image">
@@ -268,6 +280,65 @@ const Introduction = () => {
            </div>
        
       </div>
+
+      <div id="SortingSearching" className="peo" >
+           <div className="product-details">
+            <p className="information" >
+              <h1> SortingSearching</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+         
+
+            </p>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
+           </div>
+
+           <div className="product-image">
+            <img  src ={p1}  alt=""/>
+           </div>
+       
+      </div>
+
+
+
+      <div id="StacksQueue" className="peo" >
+           <div className="product-details">
+            <p className="information" >
+              <h1> StackQueue</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+         
+
+            </p>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
+           </div>
+
+           <div className="product-image">
+            <img  src ={p1}  alt=""/>
+           </div>
+       
+      </div>
+
+      <div id="Trees" className="peo" >
+           <div className="product-details">
+            <p className="information" >
+              <h1> Trees</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+         
+
+            </p>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
+           </div>
+
+           <div className="product-image">
+            <img  src ={p1}  alt=""/>
+           </div>
+       
+      </div>
+      /////
+      
+     
 
 
    </div>
