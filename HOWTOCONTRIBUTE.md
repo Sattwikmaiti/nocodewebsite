@@ -7,18 +7,18 @@ Then go to ALL(folder)
 You will Find many files named after the Topic names :
 
 Arrays.js </br>
-Backtracking.js
-Bitmanupulation.js
-BS.js
-DynamicProg.js
-Graph.js
-Heaps.js
-LinkedList.js
-NumberTheory.js
-Recursion.js
-SortingSearching.js
-StackQueue.js
-Trees.js
+Backtracking.js</br>
+Bitmanupulation.js</br>
+BS.js</br>
+DynamicProg.js</br>
+Graph.js</br></br>
+Heaps.js</br>
+LinkedList.js</br>
+NumberTheory.js</br>
+Recursion.js</br>
+SortingSearching.js</br>
+StackQueue.js</br>
+Trees.js</br>
 
 Open the file in which you want to contribute the QUESTION LINK and SOLUTION LINK.
 
@@ -35,6 +35,7 @@ Open the file in which you want to contribute the QUESTION LINK and SOLUTION LIN
               
               
 CHANGE THE first anchor tag href link with the Question Link 
+</br>
 Change the second anchor tag href link with solution link which is to be pushed in your GitHub Repository (created by you) and then paste the github link of solution. 
               
               
