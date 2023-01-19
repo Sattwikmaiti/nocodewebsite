@@ -23,6 +23,7 @@
     "react-router-dom": "^6.6.1",
     "react-scripts": "3.4.3",
     "react-ui-cards": "^3.0.2",
+    "reactjs-popup": "^2.0.5",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
