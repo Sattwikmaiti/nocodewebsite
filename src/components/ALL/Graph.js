@@ -24,6 +24,13 @@ const Graph = () => {
     </tr>
   </thead>
   <tbody style={{fontSize:'30px'}}>
+    
+<tr>
+  <th scope="row">1</th>
+  <td style={{color:'black'}}>Aggresive Cows</td>
+  <td> <a target="_blank" href="https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article" >LINK</a></td>
+  <td> <a target="_blank" href="https://github.com/Sattwikmaiti/ALGORITHMS-GIT-HUB-/blob/main/Graph%20Algorithms/Dijkstra_algorithm.cpp">Solution</a></td>
+</tr>
     <tr>
       <th scope="row">1</th>
       <td style={{color:'black'}}>Aggresive Cows</td>
