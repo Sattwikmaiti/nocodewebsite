@@ -22,7 +22,7 @@ Trees.js
 
 Open the file in which you want to contribute the QUESTION LINK and SOLUTION LINK.
 
- {/*
+ 
     COPY THIS  CODE TEXT 
     <tr>
       <th scope="row">1</th>
@@ -31,7 +31,7 @@ Open the file in which you want to contribute the QUESTION LINK and SOLUTION LIN
       <td> <a target="_blank" href="https://github.com/Sattwikmaiti/ALGORITHMS-GIT-HUB-/blob/main/Searching%20Algorithms/binary_search.cpp">Solution</a></td>
     </tr>
 
-              */}
+              
               
               
 CHANGE THE first anchor tag href link with the Question Link 
