@@ -42,35 +42,24 @@ Change the second anchor tag href link with solution link which is to be pushed 
 </br>
 
          
-         return (
-             <div className="screen">
+        <div className="screen">
     <div  style={{fontSize:'30px', fontWeight:'bolder',fontSmooth:'always' ,padding:'40px'}}>
-       
-        
-       
-         
-         <h1 style={{display:'flex',justifyContent:'center',fontSize:'100px'}}>Questions </h1><br />
-       
-
-    </div>
- <div style={{padding :'50px'}}>
+            <h1 style={{display:'flex',justifyContent:'center',fontSize:'100px'}}>Questions </h1><br />
+       <div style={{padding :'50px'}}>
     <table class="table table-hover ">
-  <thead>
+     <thead>
     <tr style={{backgroundColor:'HighlightText',fontSize:'40px',color:'black'}}>
       <th scope="col">#</th>
       <th scope="col">QUESTION NAME</th>
       <th scope="col">QUESTION LINK</th>
       <th scope="col">SOLUTION LINK</th>
     </tr>
-  </thead>
-  <tbody style={{fontSize:'30px'}}>
-    ****PASTE THE COPIED TEXT CODE AFTER CHANGING THE LINKS HERE ******
-  
-     </tbody>
- </table>
+     </thead>
+     <tbody style={{fontSize:'30px'}}>
+     ******PASTE THE COPIED CODE TEXT WITH THE CHANGED LINKS (QUESTION AND  SOLUTION) HERE ******
      </div>
- </div>
-   )
+
+  
               
               
               
