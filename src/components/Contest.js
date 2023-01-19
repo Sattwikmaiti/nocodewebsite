@@ -52,7 +52,7 @@ const images = [
     title: 'CODECHEF',
     width: '40%',
     code_url:'https://codechef.com/contests/'
-  },
+  }, 
   {
     url: p3,
     title: 'LEETCODE',

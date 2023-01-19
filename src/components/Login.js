@@ -35,8 +35,8 @@ import { useNavigate } from "react-router-dom"
                // uploaddetails(data);
                 //console.log(typeof data)
 
-{/**
-               emailjs.send('service_mw422g6','template_tyow97q', {
+
+               /*emailjs.send('service_mw422g6','template_tyow97q', {
 
                     from_name: "NoCode team",
                     message: "Welcome To NoCode Website !!!  ",
@@ -47,7 +47,7 @@ import { useNavigate } from "react-router-dom"
                   }, (err) => {
                      console.log('FAILED...', err);
                   });
-                   */}
+                   */
         
              history('/main'); 
 

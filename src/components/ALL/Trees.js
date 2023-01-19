@@ -1,7 +1,7 @@
 import React from 'react'
-import './design.css'
+import '../design.css'
 
-const BS = () => {
+const Trees = () => {
   return (
              <div className="screen">
     <div  style={{fontSize:'30px', fontWeight:'bolder',fontSmooth:'always' ,padding:'40px'}}>
@@ -288,4 +288,4 @@ const BS = () => {
   )
 }
 
-export default BS
+export default Trees

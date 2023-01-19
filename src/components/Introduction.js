@@ -1,5 +1,6 @@
 import React from 'react'
 import p1 from '../dekh.gif'
+import p2 from './ll.png'
 
 import {useNavigate} from 'react-router-dom'
 
@@ -90,7 +91,7 @@ const Introduction = () => {
           </li>
         </ul>
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
               <h1> Binary Search</h1>
@@ -107,7 +108,24 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="Sorting" className="peo" >
+           <div className="product-details">
+            <p className="information" >
+              <h1> Binary Search</h1>
+              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
+         
+
+            </p>
+            < div style={{paddingLeft :'70px'}}>
+            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
+           </div>
+
+           <div className="product-image">
+            <img  src ={p2}  alt=""/>
+           </div>
+       
+      </div>
+      <div id="Recursion" className="peo" >
            <div className="product-details">
             <p className="information" >
               <h1> Binary Search</h1>
@@ -124,7 +142,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BitManupulation" className="peo" >
            <div className="product-details">
             <p className="information" >
               <h1> Binary Search</h1>
@@ -141,7 +159,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
               <h1> Binary Search</h1>
@@ -158,7 +176,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
               <h1> Binary Search</h1>
@@ -175,24 +193,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
-           <div className="product-details">
-            <p className="information" >
-              <h1> Binary Search</h1>
-              Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration
-         
-
-            </p>
-            < div style={{paddingLeft :'70px'}}>
-            <div className="btn from-left" onClick={()=>navigate('/BS')} >QuestionBank</div></div>
-           </div>
-
-           <div className="product-image">
-            <img  src ={p1}  alt=""/>
-           </div>
-       
-      </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
             It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
@@ -207,7 +208,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
             It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
@@ -222,7 +223,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
             It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
@@ -237,7 +238,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
             It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )
@@ -252,7 +253,7 @@ const Introduction = () => {
            </div>
        
       </div>
-      <div id="BinarySearch" className="container" >
+      <div id="BinarySearch" className="peo" >
            <div className="product-details">
             <p className="information" >
             It is a searching technique used to search an element(say target) in a sorted(ascending or descending) list of elements.In this approach we use two pointers , one for the low_index and another for the high_index, i.e low_index=0 and high_index= n-1 (here n is the length of the sorted list )

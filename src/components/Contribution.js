@@ -3,8 +3,10 @@ import p1 from './123.jpeg'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import './Login.css'
+import {useNavigate} from 'react-router-dom'
   
 const Contribution = () => {
+  const nav=useNavigate();
     const [name, setname] = useState('');
     const [emailid, setemailid] = useState('');
     const [message, setmessage] = useState('');
@@ -23,8 +25,8 @@ const Contribution = () => {
     setname('');
 
       alert("THANKS FOR THE REVIEW ")
-    {/*
-  emailjs.send( 'service_mw422g6', 'template_thnxeur', {
+        
+ /* emailjs.send( 'service_mw422g6', 'template_thnxeur', {
          
           from_name: name,
           message: message,
@@ -39,16 +41,17 @@ const Contribution = () => {
             setname('');
       setemailid('');
       setmessage('');
+      nav('/thank')
         }, (error) => {
             console.log(error.text);
         }); 
-    */}
+    */
       }
      
    
   return (
     
-    <div className="container">
+    <div className="container" id="gg">
       <div className="pay">
 
           IF YOU LIKED OUR CONTENT , YOU MAY DONATE RUPEE 1 TO THIS BARCODE . IT WOULD MOTIVATE US 

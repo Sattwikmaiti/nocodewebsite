@@ -11,8 +11,20 @@ import Contest from "./components/Contest.js"
 import Resource from "./components/Resources.js"
 import Introduction from "./components/Introduction.js"
 import Contribution from "./components/Contribution.js"
-import BS from "./components/BS.js"
-import Rec from "./components/Rec.js"
+import BackTracking from "./components/ALL/BackTracking.js"
+import Arrays from "./components/ALL/Arrays.js"
+import BS from "./components/ALL/BS.js"
+import BitsManupulation from './components/ALL/BitsManipulation.js'
+import DynamicProg from "./components/ALL/DynamicProg.js"
+import Graph from "./components/ALL/Graph.js"
+import Heaps from "./components/ALL/Heaps.js"
+import LinkedList from "./components/ALL/LinkedList.js"
+import NumberTheory from "./components/ALL/NumberTheory.js"
+import Recursion from "./components/ALL/Recursion.js"
+import SortingSearching from "./components/ALL/SortingSearching.js"
+import StackQueue from "./components/ALL/StackQueue.js"
+import Trees from "./components/ALL/Trees.js"
+import Thank from "./components/Thanks.js"
 
 
 const App = () => {
@@ -28,10 +40,13 @@ const App = () => {
           <Route path='/Content' element={<Content />}/>
           <Route path='/Resource' element={<Resource/>}/>
           <Route path='/Introduction' element={<Introduction />}/>
-          <Route path='/BS' element={<BS />}/>
-          <Route path='/Rec' element={<Rec/>}/>
+          <Route path='/BackTracking' element={<BackTracking />}/>
+          <Route path='/Arrays' element={<Arrays />}/>
+          <Route path='/BitsManupulation' element={<BitsManupulation />}/>
+          
           <Route path='/Contest' element={<Contest/>}/>
           <Route path='/contribution' element={<Contribution/>}/>
+          <Route path='/Thank' element={<Thank/>}/>
            </Routes>
           
         

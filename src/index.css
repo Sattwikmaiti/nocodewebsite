@@ -509,20 +509,18 @@ width: max-content;
    100% {border-left:4px solid red }
  }
 
-
-  .container{
-	box-shadow: 1px 15px 30px 1px grey;
+.peo{
+  box-shadow: 1px 15px 30px 1px grey;
 	background: rgba(74, 63, 194, 0.217);
 	text-align: left;
 	border-radius: 5px;
 	overflow: hidden;
-	margin: 5em auto;
+	margin: 2em auto;
 	height: 450px;
 	width: fit-content;
-  
-	
 }
-.container:hover{
+  
+.peo:hover{
    box-shadow: 2px 35px 30px 4px grey;
 }
 
@@ -538,7 +536,7 @@ width: max-content;
   
 
 }
-.container .product-details {
+.peo .product-details {
 	font-family: 'Bebas Neue';
 	display: inline-block;
 	position: relative;
@@ -547,7 +545,7 @@ width: max-content;
 	margin: 0;
 	
 }
-.container .product-details > p {
+.peo .product-details > p {
    font-family: 'EB Garamond', serif;
       text-align: left;
       font-size: 15px;
@@ -568,7 +566,7 @@ width: max-content;
     display: inline-block;
  
  }
- .container img {width: 100%;height: 100%;}
+ .peo img {width: 100%;height: 100%;}
 
 
  .mom
@@ -594,3 +592,5 @@ color:white
   color:#30CFD0;
   cursor:pointer 
  }
+
+
