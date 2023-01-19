@@ -65,7 +65,12 @@ Change the second anchor tag href link with solution link which is to be pushed 
   </thead>
   <tbody style={{fontSize:'30px'}}>
     ****PASTE THE COPIED TEXT CODE AFTER CHANGING THE LINKS HERE ******
-              
+  
+     </tbody>
+ </table>
+     </div>
+ </div>
+   )
               
               
               
