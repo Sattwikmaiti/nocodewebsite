@@ -6,7 +6,7 @@ Go to  SRC  --> COMPONENTS  (folder)
 Then go to ALL(folder) 
 You will Find many files named after the Topic names :
 
-Arrays.js 
+Arrays.js </br>
 Backtracking.js
 Bitmanupulation.js
 BS.js
