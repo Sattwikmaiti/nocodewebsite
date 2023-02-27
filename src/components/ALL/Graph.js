@@ -24,6 +24,18 @@ const Graph = () => {
     </tr>
   </thead>
   <tbody style={{fontSize:'30px'}}>
+    <tr>
+  <th scope="row">1</th>
+  <td style={{color:'black'}}>Aggresive Cows</td>
+  <td> <a target="_blank" href="https://practice.geeksforgeeks.org/problems/water-connection-problem5822/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article" >LINK</a></td>
+  <td> <a target="_blank" href="https://ideone.com/o31A3y">Solution</a></td>
+</tr>
+<tr>
+  <th scope="row">1</th>
+  <td style={{color:'black'}}>Aggresive Cows</td>
+  <td> <a target="_blank" href="https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article" >LINK</a></td>
+  <td> <a target="_blank" href="https://github.com/Sattwikmaiti/ALGORITHMS-GIT-HUB-/blob/main/Graph%20Algorithms/DFS.cpp">Solution</a></td>
+</tr>
     
 <tr>
   <th scope="row">1</th>
