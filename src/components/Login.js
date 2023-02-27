@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import emailjs from '@emailjs/browser';
 import { GoogleOutlined,
     
@@ -11,11 +11,17 @@ import "./Login.css"
 import { useNavigate } from "react-router-dom"
 //const  uploaddetails = (user)=>  {return user};
     const Login =() =>
-{  
+
+{ 
+  
+  
+  const history = useNavigate()
+  
+  
 
      
 
-    const history = useNavigate()
+   
  return (
 <>
 
@@ -25,7 +31,7 @@ import { useNavigate } from "react-router-dom"
   <div className="link_wrapper">
     <div className="a" 
      onClick={()=>{
-             
+     
         auth.signInWithPopup(new firebase.auth.GoogleAuthProvider()).then(
             (user)=>{
                 localStorage.setItem("user",JSON.stringify(user))
